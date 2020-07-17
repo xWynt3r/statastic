@@ -15,6 +15,7 @@ djangorestframework-simplejwt = "*"
 coreapi = "*"
 django-filter = "*"
 django-guardian = "*"
+django-environ = "*"
 
 [requires]
 python_version = "3.8"
