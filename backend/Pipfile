@@ -6,12 +6,15 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "3.0.*"
-gunicorn = "20.0.*"
-whitenoise = "5.1.*"
-djangorestframework = "3.11.*"
-psycopg2-binary = "2.8.*"
-djangorestframework-simplejwt = "4.4.*"
+django = "*"
+gunicorn = "*"
+whitenoise = "*"
+djangorestframework = "*"
+psycopg2-binary = "*"
+djangorestframework-simplejwt = "*"
+coreapi = "*"
+django-filter = "*"
+django-guardian = "*"
 
 [requires]
 python_version = "3.8"
