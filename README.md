@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/status-in%20development-yellow">
 </p>
 
-# <center>Statastic</center>
+<h2 align="center">Statastic</h2>
 
 A modular eSports platform to organize events and create a community.
 
@@ -17,11 +17,11 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 * Python 3.8.X
-** pipenv
+* pipenv
 * Node v10+
 
-```
 After installing Python:
+```
 pip install pipenv
 ```
 
@@ -69,9 +69,9 @@ Deployment notes will become available closer to alpha release.
 
 ## Built With
 
-* [Django] (https://www.djangoproject.com)
-* [Vue.js] (https://www.vuejs.org)
-* [Vuetify] (https://vuetifyjs.com)
+* [Django](https://www.djangoproject.com)
+* [Vue.js](https://www.vuejs.org)
+* [Vuetify](https://vuetifyjs.com)
 
 ## Contributing
 
