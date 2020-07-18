@@ -7,7 +7,7 @@ matrix:
       install:
         - pip install pipenv && pipenv install
       script:
-        - python manage.py test
+        - coverage run manage.py test
       after_success:
         - codecov
     - language: node_js
@@ -17,7 +17,7 @@ matrix:
       install:
         - npm install
       script:
-        - npm run test
+        - npm run test:unit
       after_success:
         - ./node_modules/.bin/codecov --disable=gcov
 notifications:

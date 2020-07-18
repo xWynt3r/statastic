@@ -2,7 +2,7 @@
 
 A modular eSports platform to organize events and create a community.
 
-[![Build Status](https://travis-ci.com/culv3r/statastic.svg?branch=primary)](https://travis-ci.com/culv3r/statastic)[![codecov](https://codecov.io/gh/culv3r/statastic/branch/primary/graph/badge.svg)](https://codecov.io/gh/culv3r/statastic)
+[![Build Status](https://travis-ci.com/culv3r/statastic.svg?branch=primary)](https://travis-ci.com/culv3r/statastic) [![codecov](https://codecov.io/gh/culv3r/statastic/branch/primary/graph/badge.svg)](https://codecov.io/gh/culv3r/statastic) ![GitHub](https://img.shields.io/github/license/culv3r/statastic) ![GitHub last commit](https://img.shields.io/github/last-commit/culv3r/statastic)
 
 ## Getting Started
 

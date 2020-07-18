@@ -17,6 +17,7 @@ django-filter = "*"
 django-guardian = "*"
 django-environ = "*"
 codecov = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.8"
