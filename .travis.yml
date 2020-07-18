@@ -19,6 +19,6 @@ matrix:
       script:
         - npm run test
       after_success:
-        - ./node_modules/.bin/codecov
+        - ./node_modules/.bin/codecov --disable=gcov
 notifications:
   email: false
