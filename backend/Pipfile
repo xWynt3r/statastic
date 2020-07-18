@@ -16,6 +16,7 @@ coreapi = "*"
 django-filter = "*"
 django-guardian = "*"
 django-environ = "*"
+codecov = "*"
 
 [requires]
 python_version = "3.8"

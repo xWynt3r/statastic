@@ -8,6 +8,8 @@ matrix:
         - pip install pipenv && pipenv install
       script:
         - python manage.py test
+      after_success:
+        - codecov
     - language: node_js
       node_js: 10.13
       before_install:
@@ -16,5 +18,7 @@ matrix:
         - npm install
       script:
         - npm run test
+      after_success:
+        - ./node_modules/.bin/codecov
 notifications:
   email: false
