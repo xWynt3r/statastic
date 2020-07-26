@@ -1,9 +1,9 @@
 import { shallowMount } from '@vue/test-utils';
-import HelloWorld from '@/components/HelloWorld.vue';
+import Landing from '../../src/components/Landing.vue';
 
 describe('HelloWorld.vue', () => {
   it('mounts the component', () => {
-    const wrapper = shallowMount(HelloWorld, {});
+    const wrapper = shallowMount(Landing, {});
     expect(wrapper.text.toString().includes("Welcome to Vuetify"));
   });
 });
