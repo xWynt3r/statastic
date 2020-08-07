@@ -89,8 +89,8 @@ WSGI_APPLICATION = 'statastic.wsgi.application'
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
-    'localhost:8080',
-    '127.0.0.1:8080'
+    'http://localhost:8080',
+    'http://127.0.0.1:8080'
 )
 
 REST_FRAMEWORK = {
@@ -111,7 +111,7 @@ REST_FRAMEWORK = {
 # Parse database connection url strings like psql://user:pass@127.0.0.1:8458/db
 DATABASES = {
     # read os.environ['DATABASE_URL'] and raises ImproperlyConfigured exception if not found
-    'default': env.db(),
+    'default': env.db(default="sqlite:///sqlite.db"),
 }
 
 
